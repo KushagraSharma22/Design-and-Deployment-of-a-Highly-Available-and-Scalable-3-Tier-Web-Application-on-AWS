@@ -241,39 +241,83 @@ aws-three-tier-web-app/
 
 # 📸 Project Screenshots
 
-The screenshots are organized by infrastructure components.
+The following screenshots highlight the key infrastructure components deployed during this project. All deployment screenshots are available in the `screenshots` directory.
+
+---
 
 ## 🌐 Networking
-- `networking/01-vpc.jpg`
-- `networking/02-subnets.jpg`
-- `networking/03-internet-gateway.jpg`
-- `networking/04-nat-gateway.jpg`
-- `networking/05-route-table-public.jpg`
-- `networking/06-route-table-private-app.jpg`
-- `networking/07-route-table-private-db.jpg`
+
+<p align="center">
+  <img src="./screenshots/networking/01-vpc.jpg" width="90%">
+</p>
+
+<p align="center">
+<b>Figure 1:</b> Custom Amazon VPC with Public and Private Subnets
+</p>
+
+---
 
 ## 🔒 Security
-- `security/08-security-group-alb.jpg`
-- `security/09-security-group-ec2.jpg`
-- `security/10-security-group-rds.jpg`
 
-## 🗄 Database
-- `database/11-rds-instance.jpg`
-- `database/12-db-subnet-group.jpg`
+<p align="center">
+  <img src="./screenshots/security/08-security-group-alb.jpg" width="90%">
+</p>
 
-## ⚙ Compute
-- `compute/13-builder-ec2.jpg`
-- `compute/14-golden-ami.jpg`
-- `compute/15-launch-template.jpg`
-- `compute/16-auto-scaling-group.jpg`
-- `compute/19-ec2-instances.jpg`
+<p align="center">
+<b>Figure 2:</b> Security Group Configuration
+</p>
 
-## ⚖ Load Balancer
-- `load-balancer/17-application-load-balancer.jpg`
-- `load-balancer/18-target-group.jpg`
+---
 
-## ✅ Final Output
-- `output/20-final-application.jpg`
+## 🗄️ Database
+
+<p align="center">
+  <img src="./screenshots/database/11-rds-instance.jpg" width="90%">
+</p>
+
+<p align="center">
+<b>Figure 3:</b> Amazon RDS MySQL Instance
+</p>
+
+---
+
+## ⚙️ Compute
+
+<p align="center">
+  <img src="./screenshots/compute/16-auto-scaling-group.jpg" width="90%">
+</p>
+
+<p align="center">
+<b>Figure 4:</b> Auto Scaling Group Configuration
+</p>
+
+---
+
+## ⚖️ Load Balancer
+
+<p align="center">
+  <img src="./screenshots/load-balancer/17-application-load-balancer.jpg" width="90%">
+</p>
+
+<p align="center">
+<b>Figure 5:</b> Application Load Balancer
+</p>
+
+---
+
+## ✅ Final Application
+
+<p align="center">
+  <img src="./screenshots/output/20-final-application.jpg" width="90%">
+</p>
+
+<p align="center">
+<b>Figure 6:</b> Successfully Deployed Three-Tier Web Application
+</p>
+
+---
+
+> 📂 **Complete deployment screenshots are available inside the [`screenshots`](./screenshots) directory.**
 
 # ⚠ Challenges Faced
 
