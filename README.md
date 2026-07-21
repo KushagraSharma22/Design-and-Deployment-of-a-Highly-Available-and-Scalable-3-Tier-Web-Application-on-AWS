@@ -5,7 +5,7 @@
 ### Production-Inspired Cloud Infrastructure using Amazon VPC, EC2, Application Load Balancer, Auto Scaling, Launch Templates, and Amazon RDS MySQL
 
 <p align="center">
-<img src="banner/banner.png" width="100%">
+  <img src="banner/banner.png" width="100%">
 </p>
 
 <h1 align="center">AWS Three-Tier Web Application</h1>
@@ -16,8 +16,13 @@ Production-Inspired Highly Available & Scalable Infrastructure on AWS
 
 <p align="center">
 
-![AWS](...)
-...
+![AWS](https://img.shields.io/badge/AWS-Cloud-orange?logo=amazonaws)
+![Amazon EC2](https://img.shields.io/badge/EC2-Compute-blue)
+![Amazon RDS](https://img.shields.io/badge/Amazon_RDS-MySQL-blue)
+![Amazon VPC](https://img.shields.io/badge/VPC-Networking-success)
+![ALB](https://img.shields.io/badge/ALB-Load_Balancer-success)
+![Auto Scaling](https://img.shields.io/badge/Auto_Scaling-Enabled-red)
+![License](https://img.shields.io/badge/License-MIT-green)
 
 </p>
 
@@ -191,6 +196,7 @@ The project was successfully deployed and operated as expected.
 
 ---
 
+
 # 📂 Repository Structure
 
 ```text
@@ -203,7 +209,6 @@ aws-three-tier-web-app/
 │   └── banner.png
 ├── architecture/
 │   ├── aws-three-tier-architecture.png
-│   └── architecture-description.md
 ├── application/
 ├── screenshots/
 │   ├── networking/
@@ -269,53 +274,6 @@ The screenshots are organized by infrastructure components.
 
 ## ✅ Final Output
 - `output/20-final-application.jpg`
-
-------------|-------------|
-| 01-vpc.png | Custom Amazon VPC |
-| 02-public-private-subnets.png | Public & Private Subnets |
-| 03-internet-gateway.png | Internet Gateway |
-| 04-nat-gateway.png | NAT Gateway |
-| 05-route-tables.png | Route Table Configuration |
-| 06-security-groups.png | Security Groups |
-
----
-
-## Database Layer
-
-| Screenshot | Description |
-|------------|-------------|
-| 07-rds-instance.png | Amazon RDS MySQL |
-| 08-db-subnet-group.png | Database Subnet Group |
-
----
-
-## Application Layer
-
-| Screenshot | Description |
-|------------|-------------|
-| 09-builder-ec2.png | Builder EC2 Instance |
-| 10-golden-ami.png | Golden AMI |
-| 11-launch-template.png | Launch Template |
-| 12-auto-scaling-group.png | Auto Scaling Group |
-
----
-
-## Load Balancer
-
-| Screenshot | Description |
-|------------|-------------|
-| 13-application-load-balancer.png | Application Load Balancer |
-| 14-target-group.png | Target Group Health |
-
----
-
-## Final Output
-
-| Screenshot | Description |
-|------------|-------------|
-| 15-final-application.png | Successfully Deployed Application |
-
----
 
 # ⚠ Challenges Faced
 
@@ -410,7 +368,6 @@ AWS Cloud | DevOps Enthusiast
 ### Connect with Me
 
 - GitHub: https://github.com/KushagraSharma22
-- LinkedIn: *(Add your LinkedIn Profile)*
 
 ---
 
@@ -428,4 +385,4 @@ See the **LICENSE** file for more details.
 
 Thank you for visiting this repository.
 
-</div># Design-and-Deployment-of-a-Highly-Available-and-Scalable-3-Tier-Web-Application-on-AWS
+</div>
